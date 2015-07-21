@@ -1,0 +1,9 @@
+<apex:page >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Foo DF2015</h1>
+  This is your new Page
+  <!-- End Default Content REMOVE THIS -->
+  <apex:includeScript value="{!URLFOR($Resource.fakeApp, 'vendor.js')}"/>
+  <apex:includeScript value="{!URLFOR($Resource.fakeApp, 'app.js')}"/>
+
+</apex:page>
